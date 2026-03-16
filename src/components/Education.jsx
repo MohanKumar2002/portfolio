@@ -52,8 +52,8 @@ const Education = () => {
                     <Award size={16} />
                   </div>
                   <div>
-                    <h4 className="text-slate-900 dark:text-white font-semibold">21+ Technical Research Collaborations</h4>
-                    <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">Provided freelance AI engineering, deployment, and technical consulting for 5 M.Tech, 15 UG, and 1 PhD advanced academic studies.</p>
+                    <h4 className="text-slate-900 dark:text-white font-semibold">15+ UG Academic Projects & Later Consulting</h4>
+                    <p className="text-sm text-slate-600 dark:text-slate-400 mt-1">Foundational years developing 15+ specialized AI projects, which scaled into freelance engineering for advanced M.Tech and PhD studies post-graduation.</p>
                   </div>
                 </li>
               </ul>
@@ -65,7 +65,7 @@ const Education = () => {
                   21
                 </div>
                 <div className="uppercase tracking-widest text-xs font-bold text-slate-500">
-                  Independent <br /> Consulting
+                  Total <br /> Projects
                 </div>
               </div>
             </div>

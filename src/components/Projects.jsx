@@ -117,10 +117,10 @@ const Projects = () => {
            transition={{ duration: 0.6 }}
            className="mt-32 mb-12 text-center"
         >
-           <div className="text-sm font-semibold text-purple-600 dark:text-purple-400 uppercase tracking-wider mb-2">Freelance Technical Consulting</div>
+           <div className="text-sm font-semibold text-purple-600 dark:text-purple-400 uppercase tracking-wider mb-2">Academic & Consulting Research</div>
            <h2 className="text-3xl md:text-5xl font-bold">21+ Research Implementations</h2>
            <p className="text-slate-600 dark:text-slate-400 mt-4 max-w-2xl mx-auto flex flex-col items-center">
-             Acted as a Freelance Technical Consultant engineering tailored Machine Learning pipelines and AI architectures for advanced academic research (PhD, M.Tech, and UG levels).
+             Developed 15+ UG projects during my academic tenure, and transitioned into a Post-Graduation Technical Consultant engineering Machine Learning pipelines for PhD and M.Tech research.
            </p>
         </motion.div>
 
@@ -133,10 +133,11 @@ const Projects = () => {
              viewport={{ once: true }}
              className="glass p-8 rounded-2xl border-t-4 border-t-purple-500 border border-slate-200 dark:border-slate-800 flex flex-col h-full"
            >
-             <div className="flex items-center justify-between mb-4">
+             <div className="flex items-center justify-between mb-1">
                <h3 className="text-2xl font-bold text-slate-900 dark:text-white tracking-tight">M.Tech</h3>
                <span className="bg-purple-600/20 dark:bg-purple-500/20 text-purple-600 dark:text-purple-400 font-bold px-3 py-1 rounded-full text-sm shrink-0">5 Projects</span>
              </div>
+             <div className="text-xs font-semibold text-purple-700/80 dark:text-purple-400/80 mb-4 tracking-wide uppercase">Mar 2025 - Mar 2026</div>
              <p className="text-xs text-purple-800 dark:text-purple-300/80 mb-6 font-medium leading-relaxed">
                Provided end-to-end deliverables including full project source code, technical documentation, and IEEE-formatted research papers.
              </p>
@@ -157,10 +158,11 @@ const Projects = () => {
              transition={{ delay: 0.1 }}
              className="glass p-8 rounded-2xl border-t-4 border-t-gold border border-slate-200 dark:border-slate-800 lg:order-last flex flex-col h-full"
            >
-             <div className="flex items-center justify-between mb-4">
+             <div className="flex items-center justify-between mb-1">
                <h3 className="text-2xl font-bold text-slate-900 dark:text-white tracking-tight">PhD</h3>
                <span className="bg-gold/20 text-gold font-bold px-3 py-1 rounded-full text-sm shrink-0">1 Project</span>
              </div>
+             <div className="text-xs font-semibold text-amber-600/80 dark:text-gold/80 mb-4 tracking-wide uppercase">Mar 2025 - Mar 2026</div>
              <p className="text-xs text-amber-700 dark:text-gold/80 mb-6 font-medium leading-relaxed">
                Provided comprehensive architectural engineering and codebase implementation for the researcher's published paper.
              </p>
@@ -180,10 +182,11 @@ const Projects = () => {
              transition={{ delay: 0.2 }}
              className="glass p-8 rounded-2xl border-t-4 border-t-cyan-500 border border-slate-200 dark:border-slate-800 bg-gradient-to-b from-cyan-500/5 to-transparent flex flex-col h-full"
            >
-             <div className="flex items-center justify-between mb-8">
+             <div className="flex items-center justify-between mb-1">
                <h3 className="text-2xl font-bold text-slate-900 dark:text-white tracking-tight">UG</h3>
                <span className="bg-cyan-500/20 text-cyan-600 dark:text-cyan-400 font-bold px-3 py-1 rounded-full text-sm shrink-0">15 Projects</span>
              </div>
+             <div className="text-xs font-semibold text-cyan-700/80 dark:text-cyan-400/80 mb-6 tracking-wide uppercase">Oct 2021 - Mar 2025</div>
              
              <div className="grid grid-cols-1 gap-2 h-72 max-h-72 overflow-y-auto pr-2 custom-scrollbar border border-slate-200 dark:border-slate-800/50 rounded-lg p-2 bg-slate-50 dark:bg-slate-950/30">
                {[
